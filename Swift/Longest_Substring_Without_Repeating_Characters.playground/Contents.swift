@@ -1,12 +1,14 @@
 /*
 Longest Substring Without Repeating Characters
 
+Tag: String、Hash Table、Two Pointers
+
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
 求最长无重复字符子串.
 
+思路笔记:
 我们可以借助字典、集合来存储不重复字符. 查询是否存在重复字符时时间复杂度为O(1). 空间换时间.
-
 通过 sliding window滑动窗口(起点、终点确定子串范围) 来划分子串
 */
 

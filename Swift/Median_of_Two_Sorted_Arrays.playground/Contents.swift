@@ -25,6 +25,7 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
 	var median: Double = 0
 	var num = 0
 	while n1 < n1Count || n2 < n2Count {
+		// 排序
 		if n1 < n1Count && n2 < n2Count {
 			if nums1[n1] <= nums2[n2] {
 				num = nums1[n1]
@@ -43,7 +44,7 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
 			num = nums2[n2]
 			n2 += 1
 		}
-		
+		// 找中位
 		if i == mid - 1  {
 			if !isOdd {
 				median += Double(num)

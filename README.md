@@ -20,4 +20,5 @@ Problems  | Solutions
 Problems  | Solutions
 ------------- | -------------
 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Integer.playground/Contents.swift)
+[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Palindrome_Number.playground/Contents.swift)
 

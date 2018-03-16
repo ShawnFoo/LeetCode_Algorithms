@@ -16,6 +16,7 @@ Problems  | Solutions
 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Palindromic_Substring.playground/Contents.swift)
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/ZigZag_Conversion.playground/Contents.swift)
+[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/String_to_Integer(atoi).playground/Contents.swift)
 
 ## Math
 

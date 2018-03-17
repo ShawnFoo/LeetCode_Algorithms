@@ -18,6 +18,11 @@ Problems  | Solutions
 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/ZigZag_Conversion.playground/Contents.swift)
 [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/String_to_Integer(atoi).playground/Contents.swift)
 
+## Linked List
+Problems  | Solutions
+------------- | -------------
+[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Two_Numbers.playground/Contents.swift)
+
 ## Math
 
 Problems  | Solutions

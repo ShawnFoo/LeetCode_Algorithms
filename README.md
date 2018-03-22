@@ -7,6 +7,7 @@ Problems  | Solutions
 ------------- | -------------
 [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Two_Sum.playground/Contents.swift)
 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Median_of_Two_Sorted_Arrays.playground/Contents.swift)
+[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Container_With_Most_Water.playground/Contents.swift)
 
 ## String
 

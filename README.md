@@ -31,4 +31,5 @@ Problems  | Solutions
 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Integer.playground/Contents.swift)
 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Palindrome_Number.playground/Contents.swift)
 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
+[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Integer_to_Roman.playground/Contents.swift)
 

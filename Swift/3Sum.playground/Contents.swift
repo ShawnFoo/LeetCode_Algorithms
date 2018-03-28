@@ -6,8 +6,50 @@
  https://leetcode.com/problems/3sum/description/
  */
 
-// 暴力法.. 超时
 class Solution {
+    func threeSum(_ nums: [Int]) -> [[Int]] {
+        var numbers = nums
+        self.quickSort(&numbers, low: 0, high: nums.count - 1)
+        
+        return []
+    }
+    
+    func twoSum(_ nums: [Int], l: Int, r: Int, sum: Int) -> [[Int]] {
+        var sums: [[Int]] = []
+        return []
+    }
+    
+    func quickSort(_ nums: inout [Int], low: Int, high: Int) {
+        if high <= low {
+            return
+        }
+        let pivot = nums[low]
+        var l = low, h = high
+        while l < h {
+            while l < h && nums[h] > pivot {
+                h -= 1
+            }
+            if l < h {
+                nums[l] = nums[h]
+            }
+            while l < h && nums[l] < pivot {
+                l += 1
+            }
+            if l < h {
+                nums[h] = nums[l]
+            }
+        }
+        nums[l] = pivot
+        
+        quickSort(&nums, low: low, high: l-1)
+        quickSort(&nums, low: l+1, high: high)
+    }
+}
+
+let solution = Solution()
+
+// 暴力法.. 超时
+class Solution1 {
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var allSum: [[Int]] = []
         if nums.count >= 3 {
@@ -30,8 +72,4 @@ class Solution {
         return uniqueSum
     }
 }
-
-let solution = Solution()
-solution.threeSum([-2,0,1,1,2])
-solution.threeSum([0,0,0,0])
 

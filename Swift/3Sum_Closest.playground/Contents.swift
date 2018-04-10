@@ -6,35 +6,34 @@
  https://leetcode.com/problems/3sum-closest/description/
  */
 
-
-/// 暴力法, 排列组合
 class Solution {
     func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         if nums.count < 3 {
             return 0
         }
         var numbers = nums.sorted()
-    
+        
         var closestNum = numbers[0] + numbers[1] + numbers[2]
         var i = 0
         while i < numbers.count-2 {
-            let firstNum = numbers[i]
             var front = i + 1
-            while front < numbers.count-1 {
+            var end = numbers.count - 1
+            let firstNum = numbers[i]
+            while front < end {
+                let thirdNum = numbers[end]
                 let secNum = numbers[front]
-                var end = numbers.count - 1
-                while front < end {
-                    let thirdNum = numbers[end]
-                    let sum = firstNum + secNum + thirdNum
-                    // 两数之差小的更接近
-                    let firstDiff = max(closestNum, target) - min(closestNum, target)
-                    let secDiff = max(sum, target) - min(sum, target)
-                    closestNum = firstDiff < secDiff ? closestNum : sum
-                    while front < end && thirdNum == numbers[end] {
-                        end -= 1
+                let sum = firstNum + secNum + thirdNum
+                // 两数之差小的更接近
+                if abs(target - closestNum) > abs(target - sum) {
+                    closestNum = sum
+                    if closestNum == target {
+                        return target
                     }
                 }
-                while front < numbers.count-1 && secNum == numbers[front] {
+                if sum > target {
+                    end -= 1
+                }
+                else {
                     front += 1
                 }
             }

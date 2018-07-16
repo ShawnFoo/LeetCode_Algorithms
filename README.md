@@ -26,6 +26,11 @@ Problems  | Solutions
 ------------- | -------------
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Two_Numbers.playground/Contents.swift)
 
+## Stack
+Problems  | Solutions
+------------- | -------------
+[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Valid_Parentheses.playground/Contents.swift)
+
 ## Math
 
 Problems  | Solutions

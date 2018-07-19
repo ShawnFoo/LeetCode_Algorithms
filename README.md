@@ -11,6 +11,8 @@ Problems  | Solutions | Tag
 [3Sum](https://leetcode.com/problems/3sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum.playground/Contents.swift)
 [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum_Closest.playground/Contents.swift)
 [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Element.playground/Contents.swift) | Two Pointers
+[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_Insert_Position.playground/Contents.swift) | Binary Search
+
 
 ## String
 

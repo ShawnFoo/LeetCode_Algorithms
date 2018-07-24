@@ -16,18 +16,20 @@ Problems  | Solutions | Tag
 
 ## String
 
-Problems  | Solutions
-------------- | -------------
+Problems  | Solutions | Tag
+------------- | ------------- | -------------
 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Substring_Without_Repeating_Characters.playground/Contents.swift)
 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Palindromic_Substring.playground/Contents.swift)
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/ZigZag_Conversion.playground/Contents.swift)
 [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/String_to_Integer(atoi).playground/Contents.swift)
+[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Generate_Parentheses.playground/Contents.swift) | Backtracking
 
 ## Linked List
 Problems  | Solutions
 ------------- | -------------
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Two_Numbers.playground/Contents.swift)
+[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Swap_Nodes_in_Pairs.playground/Contents.swift)
 
 ## Stack
 Problems  | Solutions

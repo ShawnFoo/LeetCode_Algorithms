@@ -8,7 +8,6 @@ import Foundation
  https://leetcode.com/problems/implement-strstr/description/
  */
 
-
 /// 暴力法. 时间复杂度O(n * m)
 class Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {

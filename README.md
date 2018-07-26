@@ -12,7 +12,7 @@ Problems  | Solutions | Tag
 [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum_Closest.playground/Contents.swift)
 [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Element.playground/Contents.swift) | Two Pointers
 [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_Insert_Position.playground/Contents.swift) | Binary Search
-
+[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/7707f34afd157bf573a29790d4b4d64a6055832e/Swift/Search_in_Rotated_Sorted_Array.playground/Contents.swift) | Binary Search
 
 ## String
 
@@ -24,12 +24,15 @@ Problems  | Solutions | Tag
 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/ZigZag_Conversion.playground/Contents.swift)
 [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/String_to_Integer(atoi).playground/Contents.swift)
 [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Generate_Parentheses.playground/Contents.swift) | Backtracking
+[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Implement_strStr().playground/Contents.swift) | Two Pointers
+[Count and Say](https://leetcode.com/problems/count-and-say/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Count_and_Say.playground/Contents.swift)
 
 ## Linked List
-Problems  | Solutions
-------------- | -------------
+Problems  | Solutions | Tag
+------------- | ------------- | -------------
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Two_Numbers.playground/Contents.swift)
 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Swap_Nodes_in_Pairs.playground/Contents.swift)
+[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Nth_Node_From_End_of_List.playground/Contents.swift) | Two Pointers
 
 ## Stack
 Problems  | Solutions

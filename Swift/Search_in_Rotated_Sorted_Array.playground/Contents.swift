@@ -18,7 +18,7 @@ class Solution {
         var low = 0
         var high = nums.count - 1
         while low <= high {
-            var mid = (low + high) / 2
+            let mid = (low + high) / 2
             if nums[mid] == target {
                 return mid
             }

@@ -8,7 +8,7 @@ import Foundation
  https://leetcode.com/problems/jump-game/description/
  */
 
-// 暴力法. 时间复杂O(n). 遍历每种情况, 不断找出当前移动范围内, 位置+可移动步数最多的新位置
+// 暴力法. 时间复杂O(n^2). 遍历每种情况, 不断找出当前移动范围内, 位置+可移动步数最多的新位置
 class Solution {
     func canJump(_ nums: [Int]) -> Bool {
         if nums.count == 0 {
@@ -45,6 +45,34 @@ class Solution {
             steps = toSteps
         }
         return false
+    }
+}
+
+/// 回溯实现. 72/75. 倒数第三个测试用例超时
+class SolutionBacktracing {
+    func canJump(_ nums: [Int]) -> Bool {
+        if nums.count <= 1 {
+            return true
+        }
+        return _canJump(nums, 0, nums[0])
+    }
+    
+    private func _canJump(_ nums: [Int], _ curIndex: Int, _ steps: Int) -> Bool {
+        if steps == 0 && curIndex < nums.count - 1 {
+            return false
+        } else if curIndex + steps >= nums.count - 1 {
+            return true
+        } else {
+            var move = steps
+            while move > 0 {
+                let moveTo = curIndex + move
+                if (_canJump(nums, moveTo, nums[moveTo])) {
+                    return true
+                }
+                move -= 1
+            }
+            return false
+        }
     }
 }
 

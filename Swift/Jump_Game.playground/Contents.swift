@@ -8,8 +8,31 @@ import Foundation
  https://leetcode.com/problems/jump-game/description/
  */
 
-// 暴力法. 时间复杂O(n^2). 遍历每种情况, 不断找出当前移动范围内, 位置+可移动步数最多的新位置
+/**
+ Greedy实现. 时间复杂O(n), 空间复杂O(1)
+ 
+ 跟后边的SolutionGreedy类似, 减少了一些局域变量的使用
+ */
 class Solution {
+    func canJump(_ nums: [Int]) -> Bool {
+        var prev = 0
+        for cur in 1..<nums.count {
+            if cur <= prev + nums[prev] && cur + nums[cur] >= nums.count - 1 {
+                return true
+            } else if cur <= prev + nums[prev] && cur + nums[cur] >= prev + nums[prev] { // 在可移动范围内, 且发现一个可达最远距离的位置
+                prev = cur
+            } else if cur > prev + nums[prev] { // 超出上一个Index可移动的最大范围
+                return false
+            }
+        }
+        return prev + nums[prev] >= nums.count - 1
+    }
+}
+
+/**
+ Greedy实现. 时间复杂O(n). 逐个遍历不断找出当前可移动范围内的最优解, 位置+可移动步数最多的可达最远位置
+ */
+class SolutionGreedy {
     func canJump(_ nums: [Int]) -> Bool {
         if nums.count == 0 {
             return false

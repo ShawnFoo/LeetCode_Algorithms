@@ -12,7 +12,10 @@ Problems  | Solutions | Tag
 [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum_Closest.playground/Contents.swift)
 [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Element.playground/Contents.swift) | Two Pointers
 [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_Insert_Position.playground/Contents.swift) | Binary Search
-[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/7707f34afd157bf573a29790d4b4d64a6055832e/Swift/Search_in_Rotated_Sorted_Array.playground/Contents.swift) | Binary Search
+[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_in_Rotated_Sorted_Array.playground/Contents.swift) | Binary Search
+[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Find_First_and_Last_Position_of_Element_in_Sorted_Array.playground/Contents.swift) | Binary Search
+[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Best_Time_to_Buy_and_Sell_Stock_II.playground/Contents.swift) | Greedy
+[Jump Game](https://leetcode.com/problems/jump-game/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Jump_Game.playground/Contents.swift) | Greedy
 
 ## String
 
@@ -38,6 +41,7 @@ Problems  | Solutions | Tag
 Problems  | Solutions
 ------------- | -------------
 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Valid_Parentheses.playground/Contents.swift)
+[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Inorder_Traversal.playground/Contents.swift)
 
 ## Math
 
@@ -48,3 +52,20 @@ Problems  | Solutions
 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Integer_to_Roman.playground/Contents.swift)
 
+## Backtracking
+
+Problems | Solutions
+------------- | -------------
+[Permutations](https://leetcode.com/problems/permutations/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/aaff17c2d787d32a53d982d9baf41ed039eb4f7d/Swift/Permutations.playground/Contents.swift)
+
+## Hash Table
+
+Problems | Solutions
+------------- | -------------
+[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Valid_Sudoku.playground/Contents.swift)
+
+## Dynamic Programming
+
+Problems | Solutions
+------------- | -------------
+[House Robber](https://leetcode.com/problems/house-robber/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/House_Robber.playground/Contents.swift) 

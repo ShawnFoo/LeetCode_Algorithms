@@ -63,6 +63,7 @@ Problems | Solutions
 Problems | Solutions
 ------------- | -------------
 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Valid_Sudoku.playground/Contents.swift)
+[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Group_Anagrams.playground/Contents.swift)
 
 ## Dynamic Programming
 

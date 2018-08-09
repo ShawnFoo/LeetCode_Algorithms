@@ -1,7 +1,7 @@
 import Foundation
 
 /**
- 基于动态规划公式的递归. 超时.
+ 基于动态规划公式的递归 + Hash Table备忘. 12ms
 
  时间复杂度: O(n). 空间复杂度: O(n)
  
@@ -12,16 +12,24 @@ class Solution {
         if m == 0 || n == 0 {
             return 0
         }
-        return _uniquePaths(m - 1, n - 1)
+        var memo: [Int: Int] = [:]
+        return _uniquePaths(&memo, m - 1, n - 1)
     }
     
-    func _uniquePaths(_ m: Int, _ n: Int) -> Int {
+    private func _uniquePaths(_ memo: inout [Int: Int], _ m: Int, _ n: Int) -> Int {
         if m == 0 || n == 0 { // 终止条件为横轴或纵轴靠边了, 此时只能走直线, 也就是说这条路径已经确定了, 无需继续遍历下去
             return 1
         } else {
-            // 根据推导公式 F(m, n) = F(m-1, n) + F(m, n-1)
-            return _uniquePaths(m - 1, n) + _uniquePaths(m, n - 1)
+            let key = _memoHashKey(m, n)
+            if memo[key] == nil { // 根据推导公式 F(m, n) = F(m-1, n) + F(m, n-1)
+                memo[key] = _uniquePaths(&memo, m - 1, n) + _uniquePaths(&memo, m, n - 1)
+            }
+            return memo[key]!
         }
+    }
+    
+    private func _memoHashKey(_ m: Int, _ n: Int) -> Int {
+        return m + n * 100 // 题目说最多100*100. 故此处*100就不会hash冲突
     }
 }
 
@@ -58,3 +66,4 @@ class SolutionBacktracking {
 
 Solution().uniquePaths(3, 2)
 Solution().uniquePaths(7, 3)
+Solution().uniquePaths(23, 12)

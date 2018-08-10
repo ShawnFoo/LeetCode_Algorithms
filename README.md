@@ -16,6 +16,8 @@ Problems  | Solutions | Tag
 [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Find_First_and_Last_Position_of_Element_in_Sorted_Array.playground/Contents.swift) | Binary Search
 [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Best_Time_to_Buy_and_Sell_Stock_II.playground/Contents.swift) | Greedy
 [Jump Game](https://leetcode.com/problems/jump-game/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Jump_Game.playground/Contents.swift) | Greedy
+[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Maximum_Subarray.playground/Contents.swift) | Divide and Conquer、Dynamic Programming
+[Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Unique_Paths.playground/Contents.swift) | Dynamic Programming
 
 ## String
 

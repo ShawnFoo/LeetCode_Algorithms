@@ -18,6 +18,9 @@ Problems  | Solutions | Tag
 [Jump Game](https://leetcode.com/problems/jump-game/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Jump_Game.playground/Contents.swift) | Greedy
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Maximum_Subarray.playground/Contents.swift) | Divide and Conquer、Dynamic Programming
 [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Unique_Paths.playground/Contents.swift) | Dynamic Programming
+[Plus One](https://leetcode.com/problems/plus-one/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Plus_One.playground/Contents.swift) | Math
+[Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Rotate_Image.playground/Contents.swift)
+[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_Intervals.playground/Contents.swift) | Sort
 
 ## String
 
@@ -31,6 +34,7 @@ Problems  | Solutions | Tag
 [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Generate_Parentheses.playground/Contents.swift) | Backtracking
 [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Implement_strStr().playground/Contents.swift) | Two Pointers
 [Count and Say](https://leetcode.com/problems/count-and-say/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Count_and_Say.playground/Contents.swift)
+[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Letter_Combinations_of_a_Phone_Number.playground/Contents.swift) | Backtracking
 
 ## Linked List
 Problems  | Solutions | Tag
@@ -72,3 +76,4 @@ Problems | Solutions
 Problems | Solutions
 ------------- | -------------
 [House Robber](https://leetcode.com/problems/house-robber/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/House_Robber.playground/Contents.swift) 
+[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Climbing_Stairs.playground/Contents.swift)

@@ -21,6 +21,8 @@ Problems  | Solutions | Tag
 [Plus One](https://leetcode.com/problems/plus-one/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Plus_One.playground/Contents.swift) | Math
 [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Rotate_Image.playground/Contents.swift)
 [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_Intervals.playground/Contents.swift) | Sort
+[Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Combination_Sum.playground/Contents.swift) | Backtracking
+[Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Next_Permutation.playground/Contents.swift)
 
 ## String
 

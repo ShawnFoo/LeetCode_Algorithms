@@ -24,10 +24,8 @@ class Solution {
         } else {
             var lastIndex = -1
             for i in 0..<nums.count {
-                if used[i] { // 用过的跳过
-                    continue
-                }
-                if lastIndex != -1 && nums[i] == nums[lastIndex] { // 重复的跳过
+                if used[i] // 用过的跳过
+                    || lastIndex != -1 && nums[i] == nums[lastIndex] { // 重复的跳过
                     continue
                 }
                 used[i] = true

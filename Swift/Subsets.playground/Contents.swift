@@ -9,6 +9,29 @@ import Foundation
  */
 
 /**
+ 回溯实现. 12ms
+
+ 相比于下方的Solution1、2. 该实现从第一个元素起, 每次排列出当前元素与剩余元素所有不同长度的组合. 再继续排列剩余的每一个元素与其之后元素的组合
+ */
+class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var results: [[Int]] = []
+        var combo: [Int] = []
+        backtracking(0, nums, &combo, &results)
+        return results
+    }
+    
+    private func backtracking(_ start: Int, _ nums: [Int], _ combo: inout [Int], _ results: inout [[Int]]) {
+        results.append(combo)
+        for i in start..<nums.count {
+            combo.append(nums[i])
+            backtracking(i + 1, nums, &combo, &results)
+            combo.removeLast()
+        }
+    }
+}
+
+/**
  基于Solution1暴力回溯实现的改进版. 12ms
  
  主要解决Solution1中重复生成了相同的子集的问题, 即"求长度为n的数组子集时, 没有利用上一次求长度n-1数组子集的结果"的问题
@@ -17,7 +40,7 @@ import Foundation
  
  比如nums为[1, 2, 3], 长度为3, 那么其子集长度的种类包含长度为0、1、2、3的子集, 0~nums.count
  */
-class Solution {
+class Solution2 {
     func subsets(_ nums: [Int]) -> [[Int]] {
         var results: [[Int]] = [[]] // 默认结果为空集
         var lastResults: [[Int]] = results

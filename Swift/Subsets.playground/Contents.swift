@@ -9,11 +9,55 @@ import Foundation
  */
 
 /**
+ Bit Manipulation实现. 12ms
+ 
+ 以[1,2,3]数组举例, 每个位置只有两种可能, 即包含在组合内, 或不包含在组合内. 故共有2*2*2, 即 2^n 种可能
+ 
+ 故可以将各种集合的包含关系与二进制数值对应上, 比如:
+ 
+ 0000(0) 空集 []
+ 0001(1) 包含第0个元素的集合 [1]
+ 0010(2) 包含第1个元素的集合 [2]
+ 0011(3) 包含第0、1个元素的集合 [1, 2]
+ 0100(4) 包含第3个元素的集合 [3]
+ ...
+ 0111(7) 包含全部元素的集合 [1, 2, 3]
+ */
+class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        if nums.count == 0 {
+            return [[]]
+        }
+        var results: [[Int]] = []
+        let bitValues: Int = power(2, nums.count)
+        var combo: [Int] = []
+        for value in 0..<bitValues {
+            for i in 0..<nums.count {
+                if value & (1 << i) > 0 { // 按位与大于0则包含当前元素
+                    combo.append(nums[i])
+                }
+            }
+            results.append(combo)
+            combo.removeAll()
+        }
+        return results
+    }
+    
+    private func power(_ x: Int, _ y: Int) -> Int {
+        var value: Int = 1
+        for _ in 0..<y {
+            value *= x
+        }
+        return value
+    }
+}
+
+/**
  回溯实现. 12ms
 
  相比于下方的Solution1、2. 该实现从第一个元素起, 每次排列出当前元素与剩余元素所有不同长度的组合. 再继续排列剩余的每一个元素与其之后元素的组合
  */
-class Solution {
+class Solution3 {
     func subsets(_ nums: [Int]) -> [[Int]] {
         var results: [[Int]] = []
         var combo: [Int] = []
@@ -108,5 +152,5 @@ class Solution1 {
     }
 }
 
-print(Solution().subsets([1]))
+//print(Solution().subsets([1]))
 print(Solution().subsets([1,2,3]))

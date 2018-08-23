@@ -1,5 +1,5 @@
 /*
-Longest Substring Without Repeating Characters
+3. Longest Substring Without Repeating Characters
 
 Tag: String、Hash Table、Two Pointers
 
@@ -12,32 +12,34 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/des
 通过 sliding window滑动窗口(起点、终点确定子串范围) 来划分子串
 */
 
-/// 时间复杂度为O(n)的求法. Swift实现中仅这个通过了最后一个测试用例, 一串超级长的字符串.
-func lengthOfLongestSubstring(_ s: String) -> Int {
-    if s.count <= 1 {
-        return s.count
-    }
-    // key用来储存字符, value用来保存该字符最后一次出现的位置. 遍历一次字符串即可.
-    var charIndexDic: [Character: Int] = [:]
-    var longestLength = 0
-    // 滑动窗口起始位置
-    var start = 0
-    // 滑动窗口终结位置
-    var end = 0
-    for endChar in s {
-        // 第二个判断条件(已出现的字符位置要大于当前滑动窗口的起始位置). 因为不属于滑动窗口起始范围内的字符不属于重复字符.
-        // 等于的目的是确保 出现相邻或连续相同的字符时 滑动窗口起始位置能向后正常滑动
-        if charIndexDic.keys.contains(endChar) && charIndexDic[endChar]! >= start {
-            start = charIndexDic[endChar]! + 1
+/**
+ 滑动窗口实现(Hash Table+Two Pointers). 时间复杂度O(n). 空间复杂度O(n)
+ 
+ 借助字典记录每个字符最后1次出现的位置
+ */
+class Solution {
+    func lengthOfLongestSubstring(_ s: String) -> Int {
+        if s.count <= 1 {
+            return s.count
         }
-        longestLength = max(longestLength, end - start + 1)
-        // 插入新字符 或 更新字符最后一次出现的位置
-        charIndexDic[endChar] = end
-        end += 1
+        var charIndexDic: [Character: Int] = [:]
+        let chars = Array(s)
+        var start = 0 // 滑动窗口起始位置. 滑动窗口范围内始终为不重复的子串
+        var maxLength = 0
+        for end in 0..<chars.count {
+            let endChar = chars[end]
+            if let index = charIndexDic[endChar], index >= start { // 上一个的重复字符位置在窗口的范围内, 则取上个重复字符后边1个位置为新的窗口起点
+                start = index + 1
+            }
+            maxLength = max(maxLength, end - start + 1)
+            charIndexDic[endChar] = end
+        }
+        return maxLength
     }
-
-    return longestLength
 }
+
+SolutionDP().lengthOfLongestSubstring("abcabcbb")
+SolutionDP().lengthOfLongestSubstring("abba")
 
 /*
 -------------- 以下两种除了最后一个测试用例Time Limit Exceeded, 其他982个测试用例均通过  ------------------------

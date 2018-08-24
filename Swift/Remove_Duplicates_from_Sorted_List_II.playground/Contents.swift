@@ -30,3 +30,29 @@ class Solution {
     }
 }
 
+/**
+ 递归实现, 28ms. 时间复杂度O(n), 空间复杂度O(n)
+ */
+class SolutionRecursive {
+    func deleteDuplicates(_ head: ListNode?) -> ListNode? {
+        if head == nil || head!.next == nil {
+            return head
+        }
+        let headVal = head!.val
+        var retHead = head
+        var next: ListNode? = head!.next
+        var hasDuplicate = false
+        while next?.val == headVal {
+            hasDuplicate = true
+            retHead = next!.next
+            next = next!.next
+        }
+        if hasDuplicate { // 与前头节点值相同的跳过
+            return deleteDuplicates(retHead)
+        } else {
+            retHead?.next = deleteDuplicates(retHead?.next)
+            return retHead
+        }
+    }
+}
+

@@ -22,13 +22,16 @@ Problems  | Solutions | Tag
 [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Rotate_Image.playground/Contents.swift)
 [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_Intervals.playground/Contents.swift) | Sort
 [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Combination_Sum.playground/Contents.swift) | Backtracking
+[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Combination_Sum_II.playground/Contents.swift) | Backtracking
 [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Next_Permutation.playground/Contents.swift)
+[Subsets](https://leetcode.com/problems/subsets/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Subsets.playground/Contents.swift) | Backtrcking、Bit Manipulation
+[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Set_Matrix_Zeroes.playground/Contents.swift)
 
 ## String
 
 Problems  | Solutions | Tag
 ------------- | ------------- | -------------
-[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Substring_Without_Repeating_Characters.playground/Contents.swift)
+[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Substring_Without_Repeating_Characters.playground/Contents.swift) | Hash Table、Two Pointers
 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Palindromic_Substring.playground/Contents.swift)
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/ZigZag_Conversion.playground/Contents.swift)
@@ -44,6 +47,8 @@ Problems  | Solutions | Tag
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Two_Numbers.playground/Contents.swift)
 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Swap_Nodes_in_Pairs.playground/Contents.swift)
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Nth_Node_From_End_of_List.playground/Contents.swift) | Two Pointers
+[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_List.playground/Contents.swift)
+[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/discuss/28339/My-Recursive-Java-Solution) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_List_II.playground/Contents.swift)
 
 ## Stack
 Problems  | Solutions
@@ -64,7 +69,8 @@ Problems  | Solutions
 
 Problems | Solutions
 ------------- | -------------
-[Permutations](https://leetcode.com/problems/permutations/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/aaff17c2d787d32a53d982d9baf41ed039eb4f7d/Swift/Permutations.playground/Contents.swift)
+[Permutations](https://leetcode.com/problems/permutations/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutations.playground/Contents.swift)
+[Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutations_II.playground/Contents.swift)
 
 ## Hash Table
 

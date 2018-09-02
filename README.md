@@ -3,7 +3,7 @@ The solution to problems in LeetCode Algorithms.
 
 ## Array
 
-Problems  | Solutions | Tag
+Problems  | Solutions | Tags
 ------------- | ------------- | -------------
 [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Two_Sum.playground/Contents.swift)
 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Median_of_Two_Sorted_Arrays.playground/Contents.swift)
@@ -26,10 +26,13 @@ Problems  | Solutions | Tag
 [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Next_Permutation.playground/Contents.swift)
 [Subsets](https://leetcode.com/problems/subsets/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Subsets.playground/Contents.swift) | Backtrcking、Bit Manipulation
 [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Set_Matrix_Zeroes.playground/Contents.swift)
+[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix.playground/Contents.swift)
+[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix_II.playground/Contents.swift)
+
 
 ## String
 
-Problems  | Solutions | Tag
+Problems  | Solutions | Tags
 ------------- | ------------- | -------------
 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Substring_Without_Repeating_Characters.playground/Contents.swift) | Hash Table、Two Pointers
 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Palindromic_Substring.playground/Contents.swift)
@@ -42,13 +45,16 @@ Problems  | Solutions | Tag
 [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Letter_Combinations_of_a_Phone_Number.playground/Contents.swift) | Backtracking
 
 ## Linked List
-Problems  | Solutions | Tag
+Problems  | Solutions | Tags
 ------------- | ------------- | -------------
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Two_Numbers.playground/Contents.swift)
 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Swap_Nodes_in_Pairs.playground/Contents.swift)
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Nth_Node_From_End_of_List.playground/Contents.swift) | Two Pointers
 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_List.playground/Contents.swift)
 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/discuss/28339/My-Recursive-Java-Solution) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_List_II.playground/Contents.swift)
+[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Nodes_in_k-Group.cpp)
+[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Remove_Nth_Node_From_End_of_List.cpp) | Two Pointer
+[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Linked_List.playground/Contents.swift) \| [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Linked_List.cpp)
 
 ## Stack
 Problems  | Solutions
@@ -67,10 +73,11 @@ Problems  | Solutions
 
 ## Backtracking
 
-Problems | Solutions
-------------- | -------------
+Problems | Solutions | Tags
+------------- | ------------- | -------------
 [Permutations](https://leetcode.com/problems/permutations/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutations.playground/Contents.swift)
 [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutations_II.playground/Contents.swift)
+[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutation_Sequence.playground/Contents.swift) | Math
 
 ## Hash Table
 

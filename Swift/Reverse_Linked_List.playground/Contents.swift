@@ -13,16 +13,13 @@ import Foundation
  */
 class Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        var retHead = head
+        var retHead: ListNode? = nil
         var cur = head
-        while cur != nil && cur!.next != nil {
-            let prev = retHead
+        while cur != nil {
             let next = cur!.next
-            let nextNext = next?.next
-            retHead = next
-            retHead?.next = prev
-            head!.next = nextNext // head就是tail节点
-            cur = head
+            cur!.next = retHead
+            retHead = cur!
+            cur = next
         }
         return retHead
     }
@@ -33,17 +30,16 @@ class Solution {
  */
 class SolutionRecursive {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        return reverse(head).retHead
+        return reverse(head, nil)
     }
     
-    private func reverse(_ head: ListNode?) -> (retHead: ListNode?, prevNode: ListNode?) {
-        if head == nil || head!.next == nil {
-            return (head, head)
+    private func reverse(_ head: ListNode?, _ prevHead: ListNode?) -> ListNode? {
+        if head == nil {
+            return prevHead
         }
-        let stackFrame = reverse(head!.next)
-        stackFrame.prevNode?.next = head!
-        head!.next = nil
-        return (retHead: stackFrame.retHead, prevNode: head!)
+        let retHead = reverse(head!.next, head!)
+        head!.next = prevHead
+        return retHead
     }
 }
 

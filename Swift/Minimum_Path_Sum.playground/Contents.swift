@@ -1,6 +1,41 @@
 import Foundation
 
 /**
+ 递归+Memo实现
+ 
+ 思路: 由题目可推导出 F(m, n) = min(grid[m][n] + F(m-1, n), grid[m][n] + F(m, n-1))
+ */
+class SolutionRecursive {
+    func minPathSum(_ grid: [[Int]]) -> Int {
+        if grid.count == 0 || grid.first!.count == 0 {
+            return 0
+        }
+        var memo: [[Int]] = Array(repeating: Array(repeating: -1, count:grid.first!.count), count: grid.count)
+        return recursive(grid.first!.count - 1, grid.count - 1, &memo, grid)
+    }
+    
+    private func recursive(_ x: Int, _ y: Int, _ memo: inout [[Int]], _ grid: [[Int]]) -> Int {
+        if y == 0 && x == 0 {
+            return grid[y][x]
+        } else {
+            if memo[y][x] == -1 {
+                let value = grid[y][x]
+                var lastXSum = Int.max
+                var lastYSum = Int.max
+                if x - 1 >= 0 {
+                    lastXSum = value + recursive(x - 1, y, &memo, grid)
+                }
+                if y - 1 >= 0 {
+                    lastYSum = value + recursive(x, y - 1, &memo, grid)
+                }
+                memo[y][x] = min(lastXSum, lastYSum)
+            }
+            return memo[y][x]
+        }
+    }
+}
+
+/**
  暴力回溯实现. 毫无疑问超时. 时间复杂度 O(2^mn)
  */
 class SolutionBacktrcking {
@@ -31,5 +66,5 @@ class SolutionBacktrcking {
     }
 }
 
-let arr = [[7,1,3,5,8,9,9,2,1,9,0,8,3,1,6,6,9,5],[9,5,9,4,0,4,8,8,9,5,7,3,6,6,6,9,1,6],[8,2,9,1,3,1,9,7,2,5,3,1,2,4,8,2,8,8],[6,7,9,8,4,8,3,0,4,0,9,6,6,0,0,5,1,4],[7,1,3,1,8,8,3,1,2,1,5,0,2,1,9,1,1,4],[9,5,4,3,5,6,1,3,6,4,9,7,0,8,0,3,9,9],[1,4,2,5,8,7,7,0,0,7,1,2,1,2,7,7,7,4],[3,9,7,9,5,8,9,5,6,9,8,8,0,1,4,2,8,2],[1,5,2,2,2,5,6,3,9,3,1,7,9,6,8,6,8,3],[5,7,8,3,8,8,3,9,9,8,1,9,2,5,4,7,7,7],[2,3,2,4,8,5,1,7,2,9,5,2,4,2,9,2,8,7],[0,1,6,1,1,0,0,6,5,4,3,4,3,7,9,6,1,9]]
-SolutionBacktrcking().minPathSum(arr)
+let arr = [[1,2,5],[3,2,1]]
+SolutionRecursive().minPathSum(arr)

@@ -9,6 +9,23 @@ import Foundation
  */
 
 /**
+ 递归先序遍历, 8ms. 时间复杂度O(n), 空间复杂度O(n)
+ */
+class SolutionRecursive {
+    func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
+        if p == nil && q == nil {
+            return true
+        } else if p == nil || q == nil {
+            return false
+        } else {
+            return p!.val == q!.val
+                && isSameTree(p!.left, q!.left)
+                && isSameTree(p!.right, q!.right)
+        }
+    }
+}
+
+/**
  非递归 先序遍历实现, 12 ms. 时间复杂度O(n), 空间复杂度O(n)
  */
 class Solution {
@@ -22,16 +39,13 @@ class Solution {
             if pNode != nil || qNode != nil {
                 if let lhs = pNode, let rhs = qNode {
                     if lhs.val == rhs.val {
-                        var count = 0
                         if lhs.right != nil {
                             qStack.append(lhs.right!)
-                            count += 1
                         }
                         if rhs.right != nil {
                             pStack.append(rhs.right!)
-                            count += 1
                         }
-                        if count != 2 && count != 0 {
+                        if pStack.count != qStack.count {
                             return false
                         }
                         pNode = lhs.left
@@ -57,23 +71,45 @@ class Solution {
 }
 
 /**
- 递归先序遍历, 12ms. 时间复杂度O(n), 空间复杂度O(n)
+ BSF实现, 16ms. 时间复杂度O(n), 空间复杂度O(n)
  */
-class SolutionRecursive {
+class SolutionBSF {
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
         if p == nil && q == nil {
             return true
         } else if p == nil || q == nil {
             return false
         } else {
-            var isSame = p!.val == q!.val
-            if isSame {
-                isSame = isSameTree(p!.left, q!.left)
-                if isSame {
-                    isSame = isSameTree(p!.right, q!.right)
+            var pQueue: [TreeNode] = []
+            var qQueue: [TreeNode] = []
+            pQueue.append(p!)
+            qQueue.append(q!)
+            while !pQueue.isEmpty || !qQueue.isEmpty {
+                if pQueue.first?.val != qQueue.first?.val {
+                    return false
                 }
+                if pQueue.first!.left != nil {
+                    pQueue.append(pQueue.first!.left!)
+                }
+                if qQueue.first!.left != nil {
+                    qQueue.append(qQueue.first!.left!)
+                }
+                if pQueue.count != qQueue.count {
+                    return false
+                }
+                if pQueue.first!.right != nil {
+                    pQueue.append(pQueue.first!.right!)
+                }
+                if qQueue.first!.right != nil {
+                    qQueue.append(qQueue.first!.right!)
+                }
+                if pQueue.count != qQueue.count {
+                    return false
+                }
+                pQueue.removeFirst()
+                qQueue.removeFirst()
             }
-            return isSame
+            return true
         }
     }
 }

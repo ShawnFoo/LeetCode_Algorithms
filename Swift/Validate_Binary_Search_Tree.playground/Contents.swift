@@ -3,56 +3,63 @@ import Foundation
 /**
  98. Validate Binary Search Tree
  
+ Tags: Tree, DSF
+ 
  https://leetcode.com/problems/validate-binary-search-tree/description/
  */
 
-//class Solution {
-//    func isValidBST(_ root: TreeNode?) -> Bool {
-//        if let root = root {
-//            var leftValid = isValidBST(root.left)
-//            if leftValid, let left = root.left {
-//                leftValid = root.val > left.val
-//            }
-//            if !leftValid {
-//                return false
-//            }
-//            var rightValid = isValidBST(root.right)
-//            if rightValid, let right = root.right {
-//                rightValid = root.val < right.val
-//            }
-//            if !rightValid {
-//                return false
-//            }
-//        }
-//        return true
-//    }
-//}
+/**
+ 递归dsf中序实现, 28ms. 时间复杂度O(n), 空间复杂度O(n)
+ */
+class SolutionRecursive {
+    func isValidBST(_ root: TreeNode?) -> Bool {
+        var prevNode: TreeNode? = nil
+        return dsf(root, &prevNode)
+    }
+    
+    private func dsf(_ node: TreeNode?, _ prevNode: inout TreeNode?) -> Bool {
+        guard let node = node else {
+            return true
+        }
+        var isValid = dsf(node.left, &prevNode)
+        if let prevNode = prevNode, prevNode.val >= node.val {
+            return false
+        }
+        prevNode = node
+        if isValid {
+            isValid = dsf(node.right, &prevNode)
+        }
+        return isValid
+    }
+}
 
 /**
- dsf暴力实现, 48ms. 时间复杂度O(2n), 空间复杂度O(n)
+ dsf中序遍历非递归实现, 32ms. 时间复杂度O(n), 空间复杂度O(n)
  
- 思路: 先dsf遍历出节点数组, 再判断数组是否有序.
+ 相比于递归多了4ms. 使用stack还需处理好叶子节点的额外出栈入栈操作.
  */
 class Solution {
     func isValidBST(_ root: TreeNode?) -> Bool {
-        if let root = root {
-            var nodes: [TreeNode] = []
-            dsf(root, &nodes)
-            for i in 0..<nodes.count-1 {
-                if nodes[i].val >= nodes[i+1].val {
+        guard let root = root else {
+            return true
+        }
+        var stack: [TreeNode] = []
+        var prevNode: TreeNode? = nil
+        var node: TreeNode? = root
+        while node != nil || stack.count > 0 {
+            if node != nil {
+                stack.append(node!)
+                node = node!.left
+            } else {
+                node = stack.popLast()
+                if let prevNode = prevNode, prevNode.val >= node!.val {
                     return false
                 }
+                prevNode = node
+                node = node!.right
             }
         }
         return true
-    }
-    
-    private func dsf(_ root: TreeNode?, _ nodes: inout [TreeNode]) {
-        if let root = root {
-            dsf(root.left, &nodes)
-            nodes.append(root)
-            dsf(root.right, &nodes)
-        }
     }
 }
 

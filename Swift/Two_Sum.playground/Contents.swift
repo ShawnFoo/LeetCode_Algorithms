@@ -1,11 +1,14 @@
 /*
-Two Sum
+1. Two Sum
 
 Tag: Array、 Hash Table
 
 https://leetcode.com/problems/two-sum/description/
 */
 
+/**
+ Hash Table实现. 时间复杂度O(n), 空间复杂度O(n)
+ */
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     var numIndexDic: [Int: Int] = [:]
     for i in 0..<nums.count {
@@ -17,3 +20,4 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     }
     return []
 }
+

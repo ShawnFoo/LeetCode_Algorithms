@@ -28,7 +28,8 @@ Problems  | Solutions | Tags
 [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Set_Matrix_Zeroes.playground/Contents.swift)
 [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix.playground/Contents.swift)
 [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix_II.playground/Contents.swift)
-
+[Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Sort_Colors.playground/Contents.swift) | Two Pointers、Sort
+[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Minimum_Path_Sum.playground/Contents.swift) | Dynamic Programming
 
 ## String
 
@@ -55,6 +56,7 @@ Problems  | Solutions | Tags
 [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Nodes_in_k-Group.cpp)
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Remove_Nth_Node_From_End_of_List.cpp) | Two Pointer
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Linked_List.playground/Contents.swift) \| [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Linked_List.cpp)
+[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_k_Sorted_Lists.playground/Contents.swift) | Divide and Conquer、Heap
 
 ## Stack
 Problems  | Solutions
@@ -62,14 +64,21 @@ Problems  | Solutions
 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Valid_Parentheses.playground/Contents.swift)
 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Inorder_Traversal.playground/Contents.swift)
 
+## Tree
+
+Problems  | Solutions | Tags
+------------- | ------------- | -------------
+[Same Tree](https://leetcode.com/problems/same-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Same_Tree.playground/Contents.swift) | DFS
+
 ## Math
 
-Problems  | Solutions
-------------- | -------------
+Problems  | Solutions | Tags
+------------- | ------------- | -------------
 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Integer.playground/Contents.swift)
 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Palindrome_Number.playground/Contents.swift)
 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Integer_to_Roman.playground/Contents.swift)
+[Add Binary](https://leetcode.com/problems/add-binary/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Binary.playground/Contents.swift) | String
 
 ## Backtracking
 

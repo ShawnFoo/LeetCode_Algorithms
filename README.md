@@ -30,6 +30,8 @@ Problems  | Solutions | Tags
 [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix_II.playground/Contents.swift)
 [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Sort_Colors.playground/Contents.swift) | Two Pointers、Sort
 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Minimum_Path_Sum.playground/Contents.swift) | Dynamic Programming
+[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_a_2D_Matrix.playground/Contents.swift) | Binary Search
+
 
 ## String
 
@@ -57,6 +59,8 @@ Problems  | Solutions | Tags
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Remove_Nth_Node_From_End_of_List.cpp) | Two Pointer
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Linked_List.playground/Contents.swift) \| [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Linked_List.cpp)
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_k_Sorted_Lists.playground/Contents.swift) | Divide and Conquer、Heap
+[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle.cpp) | Two Pointers
+
 
 ## Stack
 Problems  | Solutions
@@ -74,6 +78,10 @@ Problems  | Solutions | Tags
 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Inorder_Traversal.playground/Contents.swift) | Stack
 [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Preorder_Traversal.playground/Contents.swift) | Stack
 [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Balanced%20Binary%20Tree.cpp) | DFS
+[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Validate_Binary_Search_Tree.playground/Contents.swift) | DFS
+[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Level_Order_Traversal.playground/Contents.swift) | BFS
+[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Maximum_Depth_of_Binary_Tree.playground/Contents.swift) | DFS
+
 
 ## Math
 
@@ -92,6 +100,7 @@ Problems | Solutions | Tags
 [Permutations](https://leetcode.com/problems/permutations/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutations.playground/Contents.swift)
 [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutations_II.playground/Contents.swift)
 [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Permutation_Sequence.playground/Contents.swift) | Math
+[Combinations](https://leetcode.com/problems/combinations/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Combinations.playground/Contents.swift)
 
 ## Hash Table
 

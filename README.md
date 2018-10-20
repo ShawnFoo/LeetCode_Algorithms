@@ -25,12 +25,16 @@ Problems  | Solutions | Tags
 [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Combination_Sum_II.playground/Contents.swift) | Backtracking
 [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Next_Permutation.playground/Contents.swift)
 [Subsets](https://leetcode.com/problems/subsets/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Subsets.playground/Contents.swift) | Backtrcking、Bit Manipulation
+[Subsets II](https://leetcode.com/problems/subsets-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Subsets_II.playground/Contents.swift) | Backtrcking
 [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Set_Matrix_Zeroes.playground/Contents.swift)
 [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix.playground/Contents.swift)
 [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Spiral_Matrix_II.playground/Contents.swift)
 [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Sort_Colors.playground/Contents.swift) | Two Pointers、Sort
 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Minimum_Path_Sum.playground/Contents.swift) | Dynamic Programming
 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_a_2D_Matrix.playground/Contents.swift) | Binary Search
+[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_Array.playground/Contents.swift) | Two Pointers
+[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_Array_II.playground/Contents.swift) | Two Pointers
+[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Best_Time_to_Buy_and_Sell_Stock.playground/Contents.swift) | Dynamic Programming
 
 
 ## String
@@ -58,8 +62,10 @@ Problems  | Solutions | Tags
 [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Nodes_in_k-Group.cpp)
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Remove_Nth_Node_From_End_of_List.cpp) | Two Pointer
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Linked_List.playground/Contents.swift) \| [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Linked_List.cpp)
+[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Reverse_Linked_List_II.playground/Contents.swift)
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_k_Sorted_Lists.playground/Contents.swift) | Divide and Conquer、Heap
 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle.cpp) | Two Pointers
+[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle_II.cpp) | Two Pointers
 
 
 ## Stack
@@ -81,7 +87,7 @@ Problems  | Solutions | Tags
 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Validate_Binary_Search_Tree.playground/Contents.swift) | DFS
 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Level_Order_Traversal.playground/Contents.swift) | BFS
 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Maximum_Depth_of_Binary_Tree.playground/Contents.swift) | DFS
-
+[Path Sum](https://leetcode.com/problems/path-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Path_Sum.playground/Contents.swift) | DFS
 
 ## Math
 

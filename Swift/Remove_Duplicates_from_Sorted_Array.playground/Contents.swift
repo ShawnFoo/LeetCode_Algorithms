@@ -6,21 +6,31 @@
  https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
  */
 
+/**
+ 双指针实现. 时间复杂度O(n), 空间复杂度O(1)
+ */
 class Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         if nums.count <= 1 {
             return nums.count
         }
-        var i = 0 // 记录上一个不重复的数
-        for j in 1..<nums.count {
-            if nums[i] != nums[j] {
-                i += 1 // 坑位后移, 填充下一个不重复的数
-                nums[i] = nums[j]
+        var pit = 1
+        var i = 1
+        var lastVal = nums.first!
+        while i < nums.count {
+            if nums[i] != lastVal {
+                nums[pit] = nums[i]
+                pit += 1
+                lastVal = nums[i]
             }
+            i += 1
         }
-        if i+1 <= nums.count { // 移除剩余重复的数
-            nums.removeSubrange((i+1)..<nums.count)
-        }
-        return nums.count
+        return pit
     }
 }
+
+var arr = [1, 1, 2, 2, 2]
+Solution().removeDuplicates(&arr)
+arr = [1, 1, 1, 1, 1]
+Solution().removeDuplicates(&arr)
+

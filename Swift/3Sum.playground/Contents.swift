@@ -6,7 +6,45 @@
  https://leetcode.com/problems/3sum/description/
  */
 
+/**
+ 双指针实现, 492ms. 时间复杂度O(n^2)
+ */
 class Solution {
+    func threeSum(_ nums: [Int]) -> [[Int]] {
+        var combos: [[Int]] = []
+        if nums.count < 3 {
+            return combos
+        }
+        let sNums = nums.sorted()
+        for i in 0..<sNums.count-2 {
+            if i == 0 || sNums[i] != sNums[i-1] {
+                let target = -sNums[i]
+                var low = i + 1
+                var high = sNums.count - 1
+                while low < high {
+                    if sNums[low] + sNums[high] == target {
+                        combos.append([-target, sNums[low], sNums[high]])
+                        while low < high && sNums[low] == sNums[low+1] {
+                            low += 1
+                        }
+                        while low < high && sNums[high] == sNums[high-1] {
+                            high -= 1
+                        }
+                        low += 1
+                        high -= 1
+                    } else if sNums[low] + sNums[high] < target {
+                        low += 1
+                    } else {
+                        high -= 1
+                    }
+                }
+            }
+        }
+        return combos
+    }
+}
+
+class Solution1 {
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var sum: [[Int]] = []
         var numbers = nums
@@ -37,11 +75,9 @@ class Solution {
             let twoSum = nums[begin] + nums[end]
             if twoSum < target {
                 begin += 1
-            }
-            else if twoSum > target {
+            } else if twoSum > target {
                 end -= 1
-            }
-            else {
+            } else {
                 var arr = [nums[begin], nums[end]]
                 sums.append(arr)
                 while begin < end && nums[begin] == arr[0] {
@@ -89,7 +125,7 @@ solution.threeSum(array)
 
 
 // 暴力法.. 超时
-class Solution1 {
+class Solution2 {
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var allSum: [[Int]] = []
         if nums.count >= 3 {

@@ -6,10 +6,10 @@ The solution to problems in LeetCode Algorithms.
 Problems  | Solutions | Tags
 ------------- | ------------- | -------------
 [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Two_Sum.playground/Contents.swift)
+[3Sum](https://leetcode.com/problems/3sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum.playground/Contents.swift) | Two Pointers
+[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum_Closest.playground/Contents.swift)
 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Median_of_Two_Sorted_Arrays.playground/Contents.swift)
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Container_With_Most_Water.playground/Contents.swift)
-[3Sum](https://leetcode.com/problems/3sum/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum.playground/Contents.swift)
-[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/3Sum_Closest.playground/Contents.swift)
 [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Element.playground/Contents.swift) | Two Pointers
 [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_Insert_Position.playground/Contents.swift) | Binary Search
 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Search_in_Rotated_Sorted_Array.playground/Contents.swift) | Binary Search
@@ -67,7 +67,6 @@ Problems  | Solutions | Tags
 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle.cpp) | Two Pointers
 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle_II.cpp) | Two Pointers
 
-
 ## Stack
 Problems  | Solutions
 ------------- | -------------
@@ -98,6 +97,7 @@ Problems  | Solutions | Tags
 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Integer_to_Roman.playground/Contents.swift)
 [Add Binary](https://leetcode.com/problems/add-binary/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Binary.playground/Contents.swift) | String
+[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Pow(x%2C%20n)%20.playground/Contents.swift) | Binary Search
 
 ## Backtracking
 

@@ -77,7 +77,7 @@ Problems  | Solutions
 Problems  | Solutions | Tags
 ------------- | ------------- | -------------
 [Same Tree](https://leetcode.com/problems/same-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Same_Tree.playground/Contents.swift) | DFS
-[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Symmetric_Tree%20.playground/Contents.swift) | DFS、BFS
+[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Symmetric_Tree.playground/Contents.swift) | DFS、BFS
 [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) 
 [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Preorder_Traversal.playground/Contents.swift) | Stack
 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Binary_Tree_Inorder_Traversal.playground/Contents.swift) | Stack

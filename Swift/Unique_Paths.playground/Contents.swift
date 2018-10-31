@@ -9,6 +9,26 @@ import Foundation
  */
 
 /**
+ DP实现. 8ms
+ 
+ 思路: 仅使用一行空间储存上一行的结果. 每次再从左到右遍历(左+上)
+ */
+class SolutionMemo {
+    func uniquePaths(_ m: Int, _ n: Int) -> Int {
+        if m == 0 || n == 0 {
+            return 0
+        }
+        var columns: [Int] = Array(repeating: 1, count: m)
+        for _ in 1..<n { // 逐行遍历
+            for i in 1..<m { // 第一位, 始终只有1种(+0)
+                columns[i] += columns[i-1]
+            }
+        }
+        return columns.last!
+    }
+}
+
+/**
  递归 + Hash Table备忘. 12ms
 
  时间复杂度: O(n). 空间复杂度: O(n)

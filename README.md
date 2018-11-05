@@ -37,7 +37,6 @@ Problems  | Solutions | Tags
 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_Array_II.playground/Contents.swift) | Two Pointers
 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Best_Time_to_Buy_and_Sell_Stock.playground/Contents.swift) | Dynamic Programming
 
-
 ## String
 
 Problems  | Solutions | Tags
@@ -67,6 +66,7 @@ Problems  | Solutions | Tags
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_k_Sorted_Lists.playground/Contents.swift) | Divide and Conquer、Heap
 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle.cpp) | Two Pointers
 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Linked_List_Cycle_II.cpp) | Two Pointers
+[Sort List](https://leetcode.com/problems/sort-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Sort_List.playground/Contents.swift) | Sort
 
 ## Stack
 Problems  | Solutions
@@ -122,3 +122,15 @@ Problems | Solutions
 ------------- | -------------
 [House Robber](https://leetcode.com/problems/house-robber/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/House_Robber.playground/Contents.swift) 
 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Climbing_Stairs.playground/Contents.swift)
+
+## Divide and Conquer
+
+Problems | Solutions | Tags
+------------- | ------------- | -------------
+[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Kth_Largest_Element_in_an_Array.playground/Contents.swift) | Heap
+
+## Bit Manipulation
+
+Problems | Solutions | Tags
+------------- | ------------- | -------------
+[Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Reverse_Bits.cpp)

@@ -13,33 +13,33 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/des
 */
 
 /**
- 滑动窗口实现(Hash Table+Two Pointers). 时间复杂度O(n). 空间复杂度O(n)
+ 滑动窗口实现(Hash Table+Two Pointers), 48ms. 时间复杂度O(n). 空间复杂度O(n)
  
  借助字典记录每个字符最后1次出现的位置
  */
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
-        if s.count <= 1 {
-            return s.count
-        }
-        var charIndexDic: [Character: Int] = [:]
-        let chars = Array(s)
-        var start = 0 // 滑动窗口起始位置. 滑动窗口范围内始终为不重复的子串
-        var maxLength = 0
-        for end in 0..<chars.count {
-            let endChar = chars[end]
-            if let index = charIndexDic[endChar], index >= start { // 上一个的重复字符位置在窗口的范围内, 则取上个重复字符后边1个位置为新的窗口起点
-                start = index + 1
+        if s.count > 1 {
+            var length = 0
+            var begin = 0 // 滑动窗口起始位置. 滑动窗口范围内始终为不重复的子串
+            var maps: [Character: Int] = [:]
+            let chars: [Character] = Array(s)
+            for i in 0..<chars.count {
+                let char = chars[i]
+                if let index = maps[char], index >= begin { // 上一个的重复字符位置在窗口的范围内, 则取上个重复字符后边1个位置为新的窗口起点
+                    begin = index + 1
+                }
+                maps[char] = i
+                length = max(length, i - begin + 1)
             }
-            maxLength = max(maxLength, end - start + 1)
-            charIndexDic[endChar] = end
+            return length
         }
-        return maxLength
+        return s.count
     }
 }
 
-SolutionDP().lengthOfLongestSubstring("abcabcbb")
-SolutionDP().lengthOfLongestSubstring("abba")
+Solution().lengthOfLongestSubstring("abcabcbb")
+Solution().lengthOfLongestSubstring("abba")
 
 /*
 -------------- 以下两种除了最后一个测试用例Time Limit Exceeded, 其他982个测试用例均通过  ------------------------

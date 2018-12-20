@@ -36,6 +36,10 @@ Problems  | Solutions | Tags
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_Array.playground/Contents.swift) | Two Pointers
 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Remove_Duplicates_from_Sorted_Array_II.playground/Contents.swift) | Two Pointers
 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Best_Time_to_Buy_and_Sell_Stock.playground/Contents.swift) | Dynamic Programming
+[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Merge_Sorted_Array.playground/Contents.swift) | Two Pointers
+[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Contains_Duplicate.playground/Contents.swift) | Hash Table
+[Word Search](https://leetcode.com/problems/word-search/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Word_Search.playground/Contents.swift) | Backtracking
+[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Pascal's_Triangle.playground/Contents.swift)
 
 ## String
 
@@ -50,6 +54,9 @@ Problems  | Solutions | Tags
 [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Implement_strStr().playground/Contents.swift) | Two Pointers
 [Count and Say](https://leetcode.com/problems/count-and-say/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Count_and_Say.playground/Contents.swift)
 [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Letter_Combinations_of_a_Phone_Number.playground/Contents.swift) | Backtracking
+[Decode Ways](https://leetcode.com/problems/decode-ways/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Decode_Ways.playground/Contents.swift) | Dynamic Programming
+[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Length_of_Last_Word.playground/Contents.swift)
+
 
 ## Linked List
 Problems  | Solutions | Tags
@@ -99,6 +106,7 @@ Problems  | Solutions | Tags
 [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Integer_to_Roman.playground/Contents.swift)
 [Add Binary](https://leetcode.com/problems/add-binary/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Add_Binary.playground/Contents.swift) | String
 [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Pow(x%2C%20n)%20.playground/Contents.swift) | Binary Search
+[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Sqrt(x).playground/Contents.swift) | Binary Search
 
 ## Backtracking
 

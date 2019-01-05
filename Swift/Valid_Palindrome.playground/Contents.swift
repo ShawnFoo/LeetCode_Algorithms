@@ -9,7 +9,7 @@ import Foundation
  */
 
 /**
- 双指针实现, 80ms. 时间复杂度O(n), 空间复杂度O(1)
+ 双指针实现, 32ms. 时间复杂度O(n), 空间复杂度O(1)
  */
 class Solution {
     func isPalindrome(_ s: String) -> Bool {
@@ -17,7 +17,7 @@ class Solution {
             return true
         }
         
-        let chars = Array(s)
+        let chars = Array(s.utf8)
         var left = 0
         var right = chars.count - 1
         while left <= right {
@@ -39,18 +39,29 @@ class Solution {
         return true
     }
     
-    private func lowercaseCharacter(_ char: Character) -> Character {
-        return Character(String(char).lowercased())
+    private func lowercaseCharacter(_ char: UInt8) -> UInt8 {
+        return isUpperCaseCharacter(char) ? char + 32 : char
     }
     
-    private func isAlphanumericCharacter(_ char: Character) -> Bool {
-        let charAscii = ascii(char)
-        return ascii("a") <= charAscii && charAscii <= ascii("z")
-        || ascii("A") <= charAscii && charAscii <= ascii("Z")
-        || ascii("0") <= charAscii && charAscii <= ascii("9")
+    private func isAlphanumericCharacter(_ char: UInt8) -> Bool {
+        // http://www.tamasoft.co.jp/en/general-info/unicode.html
+        return isDigitCharacter(char)
+        || isUpperCaseCharacter(char)
+        || isLowerCaseCharacter(char)
     }
     
-    private func ascii(_ char: Character) -> UInt32 {
-        return char.unicodeScalars.first!.value
+    private func isDigitCharacter(_ char: UInt8) -> Bool {
+        return 0x30 <= char && char <= 0x39
+    }
+    
+    private func isUpperCaseCharacter(_ char: UInt8) -> Bool {
+        return 0x41 <= char && char <= 0x5a
+    }
+    
+    private func isLowerCaseCharacter(_ char: UInt8) -> Bool {
+        return 0x61 <= char && char <= 0x7a
     }
 }
+
+Solution().isPalindrome("A man, a plan, a canal: Panama")
+

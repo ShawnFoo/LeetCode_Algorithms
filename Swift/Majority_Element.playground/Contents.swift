@@ -23,7 +23,7 @@ class SolutionHashTable {
             } else {
                 numCountDic[value] = 1
             }
-            if numCountDic[value] > nums.count / 2 {
+            if numCountDic[value]! > nums.count / 2 {
                 return value
             }
         }
@@ -32,27 +32,40 @@ class SolutionHashTable {
 }
 
 /**
- 暴力法, 256ms. 时间复杂度O(n^2), 空间复杂度O(n)
+ Sort实现, 240ms. 时间复杂度O(nlogN), 空间复杂度O(n)
  */
-class SolutionBruteForce {
+class SolutionSort {
     func majorityElement(_ nums: [Int]) -> Int {
         guard nums.count > 0 else {
             return -1
         }
         let sortedNums = nums.sorted()
-        var count = 0
-        var curValue = sortedNums.first!
-        for i in 0..<sortedNums.count {
-            if curValue == sortedNums[i] {
-                count += 1
-            } else {
-                curValue = sortedNums[i]
-                count = 1
-            }
-            if count > sortedNums.count / 2 {
-                return curValue
+        return sortedNums[nums.count / 2] // majority占至少一半以上, 故取中间的数必定是majority
+    }
+}
+
+/**
+ 位操作实现, 876ms. 时间复杂度O(64n 或 32n), 空间复杂度O(1)
+ 
+ 思路: 因为majority在数组中超过一半, 所以其每一位上出现的次数都超过1半. 故按位数, 遍历数组, 找出所有位数出现次数大于一半的, 组合成majority
+ */
+class SolutionBitManipulation {
+    func majorityElement(_ nums: [Int]) -> Int {
+        var majority = 0
+        let halfCount = nums.count / 2
+        for i in 0..<32 {
+            var bitCount = 0
+            for num in nums {
+                if (num >> i) & 1 > 0 {
+                    bitCount += 1
+                    
+                    if bitCount > halfCount {
+                        majority += 1 << i
+                        break
+                    }
+                }
             }
         }
-        return -1
+        return majority
     }
 }

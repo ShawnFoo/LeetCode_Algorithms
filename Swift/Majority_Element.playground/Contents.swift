@@ -11,6 +11,42 @@ import Foundation
  */
 
 /**
+ Divide and Conquer实现, 152ms. 时间复杂度O(nlogN), 空间复杂度O(logN)
+ */
+class SolutionDivideAndConquer {
+    func majorityElement(_ nums: [Int]) -> Int {
+        return self.majorityInRange(0, nums.count - 1, nums)
+    }
+    
+    private func majorityInRange(_ left: Int, _ right: Int, _ nums: [Int]) -> Int {
+        if left == right {
+            return nums[left]
+        }
+        
+        let mid = (left + right) / 2
+        let lMajor = self.majorityInRange(left, mid, nums)
+        let rMajor = self.majorityInRange(mid + 1, right, nums)
+        
+        if lMajor == rMajor {
+            return lMajor
+        }
+        
+        let lMajorCount = self.countOfNumInRange(left, right, lMajor, nums)
+        return lMajorCount > (right - left + 1) / 2 ? lMajor : rMajor
+    }
+    
+    private func countOfNumInRange(_ left: Int, _ right: Int, _ num: Int, _ nums: [Int]) -> Int {
+        var count = 0
+        for i in left...right {
+            if nums[i] == num {
+                count += 1
+            }
+        }
+        return count
+    }
+}
+
+/**
  Hash Table实现, 180ms. 时间复杂度O(n), 空间复杂度O(n)
  */
 class SolutionHashTable {

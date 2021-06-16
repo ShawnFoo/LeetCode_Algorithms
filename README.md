@@ -45,7 +45,7 @@ Problems  | Solutions | Tags
 
 Problems  | Solutions | Tags
 ------------- | ------------- | -------------
-[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Substring_Without_Repeating_Characters.playground/Contents.swift) | Hash Table、Two Pointers
+[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Substring_Without_Repeating_Characters.playground/Contents.swift) \| [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Longest_Substring_Without_Repeating_Characters.cpp) | Hash Table、Two Pointers
 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Palindromic_Substring.playground/Contents.swift)
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Longest_Common_Prefix.playground/Contents.swift)
 [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/ZigZag_Conversion.playground/Contents.swift)
@@ -76,9 +76,11 @@ Problems  | Solutions | Tags
 [Sort List](https://leetcode.com/problems/sort-list/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Sort_List.playground/Contents.swift) | Sort
 
 ## Stack
-Problems  | Solutions
-------------- | -------------
+Problems  | Solutions | Tags
+------------- | ------------- | -------------
 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Swift](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/Swift/Valid_Parentheses.playground/Contents.swift)
+[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](https://github.com/ShawnFoo/LeetCode_Algorithms/blob/master/C%2B%2B/Daily_Temperatures.cpp) | Stack、Hash Table
+
 
 ## Tree
 
